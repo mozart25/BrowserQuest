@@ -1,0 +1,1010 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sjlee8/.nvm/v0.9.12/bin/node',
+1 verbose cli   '/Users/sjlee8/.nvm/v0.9.12/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'socket.io-client' ]
+2 info using npm@1.2.12
+3 info using node@v0.9.12
+4 verbose read json /Users/sjlee8/sideproject/browserquest/package.json
+5 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/accepts/package.json
+6 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/after/package.json
+7 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/array-flatten/package.json
+8 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/arraybuffer.slice/package.json
+9 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/backo2/package.json
+10 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/base64-arraybuffer/package.json
+11 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/base64id/package.json
+12 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/blob/package.json
+13 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/body-parser/package.json
+14 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/bytes/package.json
+15 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/call-bind/package.json
+16 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/component-bind/package.json
+17 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/component-emitter/package.json
+18 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/component-inherit/package.json
+19 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/connection-parse/package.json
+20 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/content-disposition/package.json
+21 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/content-type/package.json
+22 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/cookie/package.json
+23 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/cookie-signature/package.json
+24 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/debug/package.json
+25 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/define-data-property/package.json
+26 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/depd/package.json
+27 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/destroy/package.json
+28 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/ee-first/package.json
+29 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/encodeurl/package.json
+30 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/engine.io/package.json
+31 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/engine.io-client/package.json
+32 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/engine.io-parser/package.json
+33 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/es-define-property/package.json
+34 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/es-errors/package.json
+35 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/escape-html/package.json
+36 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/etag/package.json
+37 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/express/package.json
+38 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/finalhandler/package.json
+39 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/forwarded/package.json
+40 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/fresh/package.json
+41 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/function-bind/package.json
+42 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/get-intrinsic/package.json
+43 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/gopd/package.json
+44 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/has-binary2/package.json
+45 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/has-cors/package.json
+46 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/has-property-descriptors/package.json
+47 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/has-proto/package.json
+48 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/has-symbols/package.json
+49 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/hashring/package.json
+50 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/hasown/package.json
+51 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/http-errors/package.json
+52 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/iconv-lite/package.json
+53 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/indexof/package.json
+54 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/inherits/package.json
+55 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/ipaddr.js/package.json
+56 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/isarray/package.json
+57 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/jackpot/package.json
+58 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/log/package.json
+59 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/media-typer/package.json
+60 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/memcached/package.json
+61 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/merge-descriptors/package.json
+62 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/methods/package.json
+63 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/mime/package.json
+64 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/mime-db/package.json
+65 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/mime-types/package.json
+66 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/ms/package.json
+67 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/negotiator/package.json
+68 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/object-inspect/package.json
+69 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/on-finished/package.json
+70 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/parseqs/package.json
+71 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/parseuri/package.json
+72 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/parseurl/package.json
+73 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/path-to-regexp/package.json
+74 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/proxy-addr/package.json
+75 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/qs/package.json
+76 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/range-parser/package.json
+77 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/raw-body/package.json
+78 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/retry/package.json
+79 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/safe-buffer/package.json
+80 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/safer-buffer/package.json
+81 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/sanitizer/package.json
+82 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/send/package.json
+83 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/serve-static/package.json
+84 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/set-function-length/package.json
+85 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/setprototypeof/package.json
+86 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/side-channel/package.json
+87 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/simple-lru-cache/package.json
+88 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/socket.io/package.json
+89 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-adapter/package.json
+90 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-client/package.json
+91 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-parser/package.json
+92 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/statuses/package.json
+93 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/to-array/package.json
+94 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/toidentifier/package.json
+95 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/type-is/package.json
+96 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/underscore/package.json
+97 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/unpipe/package.json
+98 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/utils-merge/package.json
+99 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/vary/package.json
+100 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/websocket/package.json
+101 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/ws/package.json
+102 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/xmlhttprequest-ssl/package.json
+103 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/yeast/package.json
+104 verbose from cache /Users/sjlee8/sideproject/browserquest/package.json
+105 verbose readDependencies using package.json deps
+106 verbose cache add [ 'socket.io-client', null ]
+107 verbose cache add name=undefined spec="socket.io-client" args=["socket.io-client",null]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: 'socket.io-client',
+108 verbose parsed url   path: 'socket.io-client',
+108 verbose parsed url   href: 'socket.io-client' }
+109 silly lockFile 4e0afff2-socket-io-client socket.io-client
+110 verbose lock socket.io-client /Users/sjlee8/.npm/4e0afff2-socket-io-client.lock
+111 silly lockFile 4e0afff2-socket-io-client socket.io-client
+112 silly lockFile 4e0afff2-socket-io-client socket.io-client
+113 verbose addNamed [ 'socket.io-client', '' ]
+114 verbose addNamed [ null, '' ]
+115 silly lockFile 2972a950-socket-io-client socket.io-client@
+116 verbose lock socket.io-client@ /Users/sjlee8/.npm/2972a950-socket-io-client.lock
+117 silly addNameRange { name: 'socket.io-client', range: '', hasData: false }
+118 verbose url raw socket.io-client
+119 verbose url resolving [ 'http://registry.npmjs.org/', './socket.io-client' ]
+120 verbose url resolved http://registry.npmjs.org/socket.io-client
+121 info trying registry request attempt 1 at 03:15:09
+122 verbose etag "3617852bdc01b35e1596e49c833ec52b"
+123 http GET http://registry.npmjs.org/socket.io-client
+124 http 304 http://registry.npmjs.org/socket.io-client
+125 silly registry.get cb [ 304,
+125 silly registry.get   { date: 'Tue, 06 Aug 2024 18:15:10 GMT',
+125 silly registry.get     connection: 'keep-alive',
+125 silly registry.get     'cf-ray': '8af102bee973c173-ICN',
+125 silly registry.get     'cf-cache-status': 'REVALIDATED',
+125 silly registry.get     'access-control-allow-origin': '*',
+125 silly registry.get     'cache-control': 'public, max-age=300',
+125 silly registry.get     etag: '"3617852bdc01b35e1596e49c833ec52b"',
+125 silly registry.get     'last-modified': 'Thu, 14 Mar 2024 16:46:58 GMT',
+125 silly registry.get     vary: 'Accept-Encoding',
+125 silly registry.get     server: 'cloudflare' } ]
+126 verbose etag socket.io-client from cache
+127 silly addNameRange number 2 { name: 'socket.io-client', range: '', hasData: true }
+128 silly addNameRange versions [ 'socket.io-client',
+128 silly addNameRange   [ '0.7.0',
+128 silly addNameRange     '0.7.1',
+128 silly addNameRange     '0.7.2',
+128 silly addNameRange     '0.7.3',
+128 silly addNameRange     '0.7.4',
+128 silly addNameRange     '0.7.5',
+128 silly addNameRange     '0.7.9',
+128 silly addNameRange     '0.7.10',
+128 silly addNameRange     '0.7.11',
+128 silly addNameRange     '0.8.0',
+128 silly addNameRange     '0.8.1',
+128 silly addNameRange     '0.8.2',
+128 silly addNameRange     '0.8.3',
+128 silly addNameRange     '0.8.4',
+128 silly addNameRange     '0.8.5',
+128 silly addNameRange     '0.8.6',
+128 silly addNameRange     '0.8.7',
+128 silly addNameRange     '0.9.0',
+128 silly addNameRange     '0.9.1',
+128 silly addNameRange     '0.9.1-1',
+128 silly addNameRange     '0.9.2',
+128 silly addNameRange     '0.9.3',
+128 silly addNameRange     '0.9.4',
+128 silly addNameRange     '0.9.5',
+128 silly addNameRange     '0.9.6',
+128 silly addNameRange     '0.9.7',
+128 silly addNameRange     '0.9.8',
+128 silly addNameRange     '0.9.9',
+128 silly addNameRange     '0.9.10',
+128 silly addNameRange     '0.9.11',
+128 silly addNameRange     '0.9.15',
+128 silly addNameRange     '0.9.16',
+128 silly addNameRange     '1.0.0-pre',
+128 silly addNameRange     '1.0.0-pre2',
+128 silly addNameRange     '1.0.0-pre3',
+128 silly addNameRange     '1.0.0-pre4',
+128 silly addNameRange     '1.0.0-pre5',
+128 silly addNameRange     '0.9.17',
+128 silly addNameRange     '1.0.1',
+128 silly addNameRange     '1.0.2',
+128 silly addNameRange     '1.0.3',
+128 silly addNameRange     '1.0.4',
+128 silly addNameRange     '1.0.5',
+128 silly addNameRange     '1.0.6',
+128 silly addNameRange     '1.1.0',
+128 silly addNameRange     '1.2.0',
+128 silly addNameRange     '1.2.1',
+128 silly addNameRange     '1.3.0',
+128 silly addNameRange     '1.3.1',
+128 silly addNameRange     '1.3.2',
+128 silly addNameRange     '1.3.3',
+128 silly addNameRange     '1.3.4',
+128 silly addNameRange     '1.3.5',
+128 silly addNameRange     '1.3.6',
+128 silly addNameRange     '1.3.7',
+128 silly addNameRange     '1.4.0',
+128 silly addNameRange     '1.4.1',
+128 silly addNameRange     '1.4.2',
+128 silly addNameRange     '1.4.3',
+128 silly addNameRange     '1.4.4',
+128 silly addNameRange     '1.4.5',
+128 silly addNameRange     '1.4.6',
+128 silly addNameRange     '1.4.7',
+128 silly addNameRange     '1.4.8',
+128 silly addNameRange     '1.5.0',
+128 silly addNameRange     '1.5.1',
+128 silly addNameRange     '1.6.0',
+128 silly addNameRange     '1.7.0',
+128 silly addNameRange     '1.7.1',
+128 silly addNameRange     '1.7.2',
+128 silly addNameRange     '1.7.3',
+128 silly addNameRange     '1.7.4',
+128 silly addNameRange     '2.0.0',
+128 silly addNameRange     '2.0.1',
+128 silly addNameRange     '2.0.2',
+128 silly addNameRange     '2.0.3',
+128 silly addNameRange     '2.0.4',
+128 silly addNameRange     '2.1.0',
+128 silly addNameRange     '2.1.1',
+128 silly addNameRange     '2.2.0',
+128 silly addNameRange     '2.3.0',
+128 silly addNameRange     '2.3.1',
+128 silly addNameRange     '3.0.0-rc1',
+128 silly addNameRange     '3.0.0-rc2',
+128 silly addNameRange     '3.0.0-rc3',
+128 silly addNameRange     '3.0.0-rc4',
+128 silly addNameRange     '3.0.0',
+128 silly addNameRange     '3.0.1',
+128 silly addNameRange     '3.0.2',
+128 silly addNameRange     '3.0.3',
+128 silly addNameRange     '3.0.4',
+128 silly addNameRange     '2.4.0',
+128 silly addNameRange     '3.0.5',
+128 silly addNameRange     '3.1.0',
+128 silly addNameRange     '3.1.1',
+128 silly addNameRange     '3.1.2',
+128 silly addNameRange     '4.0.0',
+128 silly addNameRange     '3.1.3',
+128 silly addNameRange     '4.0.1',
+128 silly addNameRange     '4.0.2',
+128 silly addNameRange     '4.1.0',
+128 silly addNameRange     '4.1.1',
+128 silly addNameRange     '4.1.2',
+128 silly addNameRange     '4.1.3',
+128 silly addNameRange     '4.2.0',
+128 silly addNameRange     '4.3.0',
+128 silly addNameRange     '4.3.1',
+128 silly addNameRange     '4.3.2',
+128 silly addNameRange     '4.4.0',
+128 silly addNameRange     '4.4.1',
+128 silly addNameRange     '4.5.0',
+128 silly addNameRange     '4.5.1',
+128 silly addNameRange     '2.5.0',
+128 silly addNameRange     '4.5.2',
+128 silly addNameRange     '4.5.3',
+128 silly addNameRange     '4.5.4',
+128 silly addNameRange     '4.6.0-alpha1',
+128 silly addNameRange     '4.6.0-alpha2',
+128 silly addNameRange     '4.6.0',
+128 silly addNameRange     '4.6.1',
+128 silly addNameRange     '4.6.2',
+128 silly addNameRange     '4.7.0',
+128 silly addNameRange     '4.7.1',
+128 silly addNameRange     '4.7.2',
+128 silly addNameRange     '4.7.3',
+128 silly addNameRange     '4.7.4',
+128 silly addNameRange     '4.7.5' ] ]
+129 verbose addNamed [ 'socket.io-client', '4.7.5' ]
+130 verbose addNamed [ '4.7.5', '4.7.5' ]
+131 silly lockFile 79e6f540-socket-io-client-4-7-5 socket.io-client@4.7.5
+132 verbose lock socket.io-client@4.7.5 /Users/sjlee8/.npm/79e6f540-socket-io-client-4-7-5.lock
+133 verbose read json /Users/sjlee8/.npm/socket.io-client/4.7.5/package/package.json
+134 silly lockFile 79e6f540-socket-io-client-4-7-5 socket.io-client@4.7.5
+135 silly lockFile 79e6f540-socket-io-client-4-7-5 socket.io-client@4.7.5
+136 silly lockFile 2972a950-socket-io-client socket.io-client@
+137 silly lockFile 2972a950-socket-io-client socket.io-client@
+138 silly resolved [ { name: 'socket.io-client',
+138 silly resolved     version: '4.7.5',
+138 silly resolved     description: 'Realtime application framework client',
+138 silly resolved     keywords: [ 'realtime', 'framework', 'websocket', 'tcp', 'events', 'client' ],
+138 silly resolved     files: [ 'dist/', 'build/' ],
+138 silly resolved     type: 'commonjs',
+138 silly resolved     main: './build/cjs/index.js',
+138 silly resolved     module: './build/esm/index.js',
+138 silly resolved     exports:
+138 silly resolved      { './package.json': './package.json',
+138 silly resolved        './dist/socket.io.js': './dist/socket.io.js',
+138 silly resolved        './dist/socket.io.js.map': './dist/socket.io.js.map',
+138 silly resolved        '.': [Object],
+138 silly resolved        './debug': [Object] },
+138 silly resolved     types: './build/esm/index.d.ts',
+138 silly resolved     dependencies:
+138 silly resolved      { '@socket.io/component-emitter': '~3.1.0',
+138 silly resolved        debug: '~4.3.2',
+138 silly resolved        'engine.io-client': '~6.5.2',
+138 silly resolved        'socket.io-parser': '~4.2.4' },
+138 silly resolved     devDependencies:
+138 silly resolved      { '@babel/core': '^7.15.0',
+138 silly resolved        '@babel/plugin-transform-object-assign': '^7.14.5',
+138 silly resolved        '@babel/preset-env': '^7.15.0',
+138 silly resolved        '@babel/register': '^7.18.9',
+138 silly resolved        '@rollup/plugin-alias': '^3.1.5',
+138 silly resolved        '@rollup/plugin-babel': '^5.3.0',
+138 silly resolved        '@rollup/plugin-commonjs': '^21.0.0',
+138 silly resolved        '@rollup/plugin-node-resolve': '^13.0.5',
+138 silly resolved        '@sinonjs/fake-timers': '^7.1.2',
+138 silly resolved        '@types/mocha': '^9.0.0',
+138 silly resolved        '@types/node': '^16.7.6',
+138 silly resolved        '@types/sinonjs__fake-timers': '^6.0.3',
+138 silly resolved        '@wdio/cli': '^7.26.0',
+138 silly resolved        '@wdio/local-runner': '^7.26.0',
+138 silly resolved        '@wdio/mocha-framework': '^7.26.0',
+138 silly resolved        '@wdio/sauce-service': '^7.26.0',
+138 silly resolved        '@wdio/spec-reporter': '^7.26.0',
+138 silly resolved        'babel-eslint': '^10.1.0',
+138 silly resolved        'babel-loader': '^8.1.0',
+138 silly resolved        'babel-preset-es2015': '6.24.1',
+138 silly resolved        'base64-arraybuffer': '^0.1.5',
+138 silly resolved        'expect.js': '0.3.1',
+138 silly resolved        'has-cors': '^1.1.0',
+138 silly resolved        mocha: '^10.1.0',
+138 silly resolved        prettier: '^2.3.2',
+138 silly resolved        rimraf: '^3.0.2',
+138 silly resolved        rollup: '^2.58.0',
+138 silly resolved        'rollup-plugin-terser': '^7.0.2',
+138 silly resolved        'socket.io': '^4.6.0-alpha1',
+138 silly resolved        'socket.io-msgpack-parser': '^3.0.0',
+138 silly resolved        'text-blob-builder': '0.0.1',
+138 silly resolved        'ts-loader': '^8.3.0',
+138 silly resolved        'ts-node': '^10.2.1',
+138 silly resolved        tsd: '^0.17.0',
+138 silly resolved        typescript: '^4.4.2' },
+138 silly resolved     scripts:
+138 silly resolved      { compile: 'rimraf ./build && tsc && tsc -p tsconfig.esm.json && ./postcompile.sh',
+138 silly resolved        test: 'npm run format:check && npm run compile && if test "$BROWSERS" = "1" ; then npm run test:browser; else npm run test:node; fi',
+138 silly resolved        'test:node': 'mocha --require ts-node/register --reporter dot --require test/support/hooks.ts --timeout 5000 --exit test/index.ts',
+138 silly resolved        'test:browser': 'ts-node test/browser-runner.ts',
+138 silly resolved        'test:types': 'tsd',
+138 silly resolved        build: 'rollup -c support/rollup.config.umd.js && rollup -c support/rollup.config.esm.js && rollup -c support/rollup.config.umd.msgpack.js',
+138 silly resolved        'format:check': 'prettier --check "*.js" "lib/**/*.ts" "test/**/*.ts" "support/**/*.js"',
+138 silly resolved        'format:fix': 'prettier --write "*.js" "lib/**/*.ts" "test/**/*.ts" "support/**/*.js"',
+138 silly resolved        prepack: 'npm run compile' },
+138 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+138 silly resolved     repository:
+138 silly resolved      { type: 'git',
+138 silly resolved        url: 'https://github.com/socketio/socket.io-client.git' },
+138 silly resolved     license: 'MIT',
+138 silly resolved     engines: { node: '>=10.0.0' },
+138 silly resolved     tsd: { directory: 'test' },
+138 silly resolved     browser: { './test/node.ts': false },
+138 silly resolved     overrides: { '@types/estree': '0.0.52' },
+138 silly resolved     readme: '\n# socket.io-client\n\n[![Build Status](https://github.com/socketio/socket.io-client/workflows/CI/badge.svg?branch=main)](https://github.com/socketio/socket.io-client/actions)\n[![NPM version](https://badge.fury.io/js/socket.io-client.svg)](https://www.npmjs.com/package/socket.io-client)\n![Downloads](http://img.shields.io/npm/dm/socket.io-client.svg?style=flat)\n[![](http://slack.socket.io/badge.svg?)](http://slack.socket.io)\n\n[![Sauce Test Status](https://saucelabs.com/browser-matrix/socket.svg)](https://saucelabs.com/u/socket)\n\n## Documentation\n\nPlease see the documentation [here](https://socket.io/docs/v4/client-initialization/).\n\nThe source code of the website can be found [here](https://github.com/socketio/socket.io-website). Contributions are welcome!\n\n## Debug / logging\n\nIn order to see all the client debug output, run the following command on the browser console – including the desired scope – and reload your app page:\n\n```\nlocalStorage.debug = \'*\';\n```\n\nAnd then, filter by the scopes you\'re interested in. See also: https://socket.io/docs/v4/logging-and-debugging/\n\n## License\n\n[MIT](/LICENSE)\n',
+138 silly resolved     readmeFilename: 'README.md',
+138 silly resolved     _id: 'socket.io-client@4.7.5',
+138 silly resolved     _from: 'socket.io-client@' } ]
+139 info install socket.io-client@4.7.5 into /Users/sjlee8/sideproject/browserquest
+140 info installOne socket.io-client@4.7.5
+141 warn engine socket.io-client@4.7.5: wanted: {"node":">=10.0.0"} (current: {"node":"v0.9.12","npm":"1.2.12"})
+142 verbose from cache /Users/sjlee8/.npm/socket.io-client/4.7.5/package/package.json
+143 info /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-client unbuild
+144 verbose from cache /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-client/package.json
+145 info preuninstall socket.io-client@4.7.5
+146 info uninstall socket.io-client@4.7.5
+147 verbose true,/Users/sjlee8/sideproject/browserquest/node_modules,/Users/sjlee8/sideproject/browserquest/node_modules unbuild socket.io-client@4.7.5
+148 info postuninstall socket.io-client@4.7.5
+149 verbose tar unpack /Users/sjlee8/.npm/socket.io-client/4.7.5/package.tgz
+150 silly lockFile 9ffb1c64-st-node-modules-socket-io-client /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-client
+151 verbose lock /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-client /Users/sjlee8/.npm/9ffb1c64-st-node-modules-socket-io-client.lock
+152 silly lockFile 29115199-cket-io-client-4-7-5-package-tgz /Users/sjlee8/.npm/socket.io-client/4.7.5/package.tgz
+153 verbose lock /Users/sjlee8/.npm/socket.io-client/4.7.5/package.tgz /Users/sjlee8/.npm/29115199-cket-io-client-4-7-5-package-tgz.lock
+154 silly gunzTarPerm modes [ '755', '644' ]
+155 silly gunzTarPerm extractEntry package.json
+156 silly gunzTarPerm extractEntry README.md
+157 silly gunzTarPerm extractEntry build/cjs/url.js
+158 silly gunzTarPerm extractEntry build/cjs/socket.js
+159 silly gunzTarPerm extractEntry build/cjs/on.js
+160 silly gunzTarPerm extractEntry build/cjs/index.js
+161 silly gunzTarPerm extractEntry build/cjs/browser-entrypoint.js
+162 silly gunzTarPerm extractEntry build/cjs/manager.js
+163 silly gunzTarPerm extractEntry build/cjs/manager.d.ts
+164 silly gunzTarPerm extractEntry build/cjs/on.d.ts
+165 silly gunzTarPerm extractEntry build/cjs/index.d.ts
+166 silly gunzTarPerm extractEntry build/cjs/socket.d.ts
+167 silly gunzTarPerm extractEntry build/cjs/contrib/backo2.js
+168 silly gunzTarPerm extractEntry build/cjs/contrib/backo2.d.ts
+169 silly gunzTarPerm extractEntry build/cjs/url.d.ts
+170 silly gunzTarPerm extractEntry build/cjs/browser-entrypoint.d.ts
+171 silly gunzTarPerm extractEntry build/esm/package.json
+172 silly gunzTarPerm extractEntry build/esm/url.js
+173 silly gunzTarPerm extractEntry build/esm/index.js
+174 silly gunzTarPerm extractEntry build/esm/manager.js
+175 silly gunzTarPerm extractEntry build/esm/browser-entrypoint.js
+176 silly gunzTarPerm extractEntry build/esm/on.js
+177 silly gunzTarPerm extractEntry build/esm/socket.js
+178 silly gunzTarPerm extractEntry build/esm/index.d.ts
+179 silly gunzTarPerm extractEntry build/esm/browser-entrypoint.d.ts
+180 silly gunzTarPerm extractEntry build/esm/manager.d.ts
+181 silly gunzTarPerm extractEntry build/esm/socket.d.ts
+182 silly gunzTarPerm extractEntry build/esm/contrib/backo2.js
+183 silly gunzTarPerm extractEntry build/esm/contrib/backo2.d.ts
+184 silly gunzTarPerm extractEntry build/esm/url.d.ts
+185 silly gunzTarPerm extractEntry build/esm/on.d.ts
+186 silly gunzTarPerm extractEntry build/esm-debug/package.json
+187 silly gunzTarPerm extractEntry build/esm-debug/url.js
+188 silly gunzTarPerm extractEntry build/esm-debug/index.js
+189 silly gunzTarPerm extractEntry build/esm-debug/manager.js
+190 silly gunzTarPerm extractEntry build/esm-debug/browser-entrypoint.js
+191 silly gunzTarPerm extractEntry build/esm-debug/on.js
+192 silly gunzTarPerm extractEntry build/esm-debug/socket.js
+193 silly gunzTarPerm extractEntry build/esm-debug/index.d.ts
+194 silly gunzTarPerm extractEntry build/esm-debug/browser-entrypoint.d.ts
+195 silly gunzTarPerm extractEntry build/esm-debug/manager.d.ts
+196 silly gunzTarPerm extractEntry build/esm-debug/socket.d.ts
+197 silly gunzTarPerm extractEntry build/esm-debug/contrib/backo2.js
+198 silly gunzTarPerm extractEntry build/esm-debug/contrib/backo2.d.ts
+199 silly gunzTarPerm extractEntry build/esm-debug/url.d.ts
+200 silly gunzTarPerm extractEntry build/esm-debug/on.d.ts
+201 silly gunzTarPerm extractEntry dist/socket.io.esm.min.js
+202 silly gunzTarPerm extractEntry dist/socket.io.js
+203 silly gunzTarPerm extractEntry dist/socket.io.min.js
+204 silly gunzTarPerm extractEntry dist/socket.io.msgpack.min.js
+205 silly gunzTarPerm extractEntry dist/socket.io.esm.min.js.map
+206 silly gunzTarPerm extractEntry dist/socket.io.js.map
+207 silly gunzTarPerm extractEntry dist/socket.io.min.js.map
+208 silly gunzTarPerm extractEntry dist/socket.io.msgpack.min.js.map
+209 verbose read json /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-client/package.json
+210 silly lockFile 9ffb1c64-st-node-modules-socket-io-client /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-client
+211 silly lockFile 9ffb1c64-st-node-modules-socket-io-client /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-client
+212 silly lockFile 29115199-cket-io-client-4-7-5-package-tgz /Users/sjlee8/.npm/socket.io-client/4.7.5/package.tgz
+213 silly lockFile 29115199-cket-io-client-4-7-5-package-tgz /Users/sjlee8/.npm/socket.io-client/4.7.5/package.tgz
+214 info preinstall socket.io-client@4.7.5
+215 verbose from cache /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-client/package.json
+216 verbose readDependencies using package.json deps
+217 verbose from cache /Users/sjlee8/sideproject/browserquest/node_modules/socket.io-client/package.json
+218 verbose readDependencies using package.json deps
+219 verbose cache add [ 'debug@~4.3.2', null ]
+220 verbose cache add name=undefined spec="debug@~4.3.2" args=["debug@~4.3.2",null]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: 'debug@~4.3.2',
+221 verbose parsed url   path: 'debug@~4.3.2',
+221 verbose parsed url   href: 'debug@~4.3.2' }
+222 verbose cache add name="debug" spec="~4.3.2" args=["debug","~4.3.2"]
+223 verbose parsed url { protocol: null,
+223 verbose parsed url   slashes: null,
+223 verbose parsed url   auth: null,
+223 verbose parsed url   host: null,
+223 verbose parsed url   port: null,
+223 verbose parsed url   hostname: null,
+223 verbose parsed url   hash: null,
+223 verbose parsed url   search: null,
+223 verbose parsed url   query: null,
+223 verbose parsed url   pathname: '~4.3.2',
+223 verbose parsed url   path: '~4.3.2',
+223 verbose parsed url   href: '~4.3.2' }
+224 verbose addNamed [ 'debug', '~4.3.2' ]
+225 verbose addNamed [ null, '>=4.3.2- <4.4.0-' ]
+226 silly lockFile a68cb354-debug-4-3-2 debug@~4.3.2
+227 verbose lock debug@~4.3.2 /Users/sjlee8/.npm/a68cb354-debug-4-3-2.lock
+228 verbose cache add [ 'engine.io-client@~6.5.2', null ]
+229 verbose cache add name=undefined spec="engine.io-client@~6.5.2" args=["engine.io-client@~6.5.2",null]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: 'engine.io-client@~6.5.2',
+230 verbose parsed url   path: 'engine.io-client@~6.5.2',
+230 verbose parsed url   href: 'engine.io-client@~6.5.2' }
+231 verbose cache add name="engine.io-client" spec="~6.5.2" args=["engine.io-client","~6.5.2"]
+232 verbose parsed url { protocol: null,
+232 verbose parsed url   slashes: null,
+232 verbose parsed url   auth: null,
+232 verbose parsed url   host: null,
+232 verbose parsed url   port: null,
+232 verbose parsed url   hostname: null,
+232 verbose parsed url   hash: null,
+232 verbose parsed url   search: null,
+232 verbose parsed url   query: null,
+232 verbose parsed url   pathname: '~6.5.2',
+232 verbose parsed url   path: '~6.5.2',
+232 verbose parsed url   href: '~6.5.2' }
+233 verbose addNamed [ 'engine.io-client', '~6.5.2' ]
+234 verbose addNamed [ null, '>=6.5.2- <6.6.0-' ]
+235 silly lockFile 6760a78b-engine-io-client-6-5-2 engine.io-client@~6.5.2
+236 verbose lock engine.io-client@~6.5.2 /Users/sjlee8/.npm/6760a78b-engine-io-client-6-5-2.lock
+237 verbose cache add [ '@socket.io/component-emitter@~3.1.0', null ]
+238 verbose cache add name=undefined spec="@socket.io/component-emitter@~3.1.0" args=["@socket.io/component-emitter@~3.1.0",null]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: '@socket.io/component-emitter@~3.1.0',
+239 verbose parsed url   path: '@socket.io/component-emitter@~3.1.0',
+239 verbose parsed url   href: '@socket.io/component-emitter@~3.1.0' }
+240 verbose cache add name="" spec="socket.io/component-emitter@~3.1.0" args=["","socket.io/component-emitter@~3.1.0"]
+241 verbose parsed url { protocol: null,
+241 verbose parsed url   slashes: null,
+241 verbose parsed url   auth: null,
+241 verbose parsed url   host: null,
+241 verbose parsed url   port: null,
+241 verbose parsed url   hostname: null,
+241 verbose parsed url   hash: null,
+241 verbose parsed url   search: null,
+241 verbose parsed url   query: null,
+241 verbose parsed url   pathname: 'socket.io/component-emitter@~3.1.0',
+241 verbose parsed url   path: 'socket.io/component-emitter@~3.1.0',
+241 verbose parsed url   href: 'socket.io/component-emitter@~3.1.0' }
+242 verbose cache add name="socket.io/component-emitter" spec="~3.1.0" args=["socket.io/component-emitter","~3.1.0"]
+243 verbose parsed url { protocol: null,
+243 verbose parsed url   slashes: null,
+243 verbose parsed url   auth: null,
+243 verbose parsed url   host: null,
+243 verbose parsed url   port: null,
+243 verbose parsed url   hostname: null,
+243 verbose parsed url   hash: null,
+243 verbose parsed url   search: null,
+243 verbose parsed url   query: null,
+243 verbose parsed url   pathname: '~3.1.0',
+243 verbose parsed url   path: '~3.1.0',
+243 verbose parsed url   href: '~3.1.0' }
+244 verbose addNamed [ 'socket.io/component-emitter', '~3.1.0' ]
+245 verbose addNamed [ null, '>=3.1.0- <3.2.0-' ]
+246 silly lockFile fd58be30-ocket-io-component-emitter-3-1-0 socket.io/component-emitter@~3.1.0
+247 verbose lock socket.io/component-emitter@~3.1.0 /Users/sjlee8/.npm/fd58be30-ocket-io-component-emitter-3-1-0.lock
+248 silly addNameRange { name: 'debug', range: '>=4.3.2- <4.4.0-', hasData: false }
+249 silly addNameRange { name: 'engine.io-client',
+249 silly addNameRange   range: '>=6.5.2- <6.6.0-',
+249 silly addNameRange   hasData: false }
+250 verbose cache add [ 'socket.io-parser@~4.2.4', null ]
+251 verbose cache add name=undefined spec="socket.io-parser@~4.2.4" args=["socket.io-parser@~4.2.4",null]
+252 verbose parsed url { protocol: null,
+252 verbose parsed url   slashes: null,
+252 verbose parsed url   auth: null,
+252 verbose parsed url   host: null,
+252 verbose parsed url   port: null,
+252 verbose parsed url   hostname: null,
+252 verbose parsed url   hash: null,
+252 verbose parsed url   search: null,
+252 verbose parsed url   query: null,
+252 verbose parsed url   pathname: 'socket.io-parser@~4.2.4',
+252 verbose parsed url   path: 'socket.io-parser@~4.2.4',
+252 verbose parsed url   href: 'socket.io-parser@~4.2.4' }
+253 verbose cache add name="socket.io-parser" spec="~4.2.4" args=["socket.io-parser","~4.2.4"]
+254 verbose parsed url { protocol: null,
+254 verbose parsed url   slashes: null,
+254 verbose parsed url   auth: null,
+254 verbose parsed url   host: null,
+254 verbose parsed url   port: null,
+254 verbose parsed url   hostname: null,
+254 verbose parsed url   hash: null,
+254 verbose parsed url   search: null,
+254 verbose parsed url   query: null,
+254 verbose parsed url   pathname: '~4.2.4',
+254 verbose parsed url   path: '~4.2.4',
+254 verbose parsed url   href: '~4.2.4' }
+255 verbose addNamed [ 'socket.io-parser', '~4.2.4' ]
+256 verbose addNamed [ null, '>=4.2.4- <4.3.0-' ]
+257 silly lockFile cda196fd-socket-io-parser-4-2-4 socket.io-parser@~4.2.4
+258 verbose lock socket.io-parser@~4.2.4 /Users/sjlee8/.npm/cda196fd-socket-io-parser-4-2-4.lock
+259 silly addNameRange { name: 'socket.io-parser',
+259 silly addNameRange   range: '>=4.2.4- <4.3.0-',
+259 silly addNameRange   hasData: false }
+260 verbose url raw debug
+261 verbose url resolving [ 'http://registry.npmjs.org/', './debug' ]
+262 verbose url resolved http://registry.npmjs.org/debug
+263 info trying registry request attempt 1 at 03:15:11
+264 verbose etag "60daeb88ea01e92272f05dd8e9126cbf"
+265 http GET http://registry.npmjs.org/debug
+266 verbose url raw socket.io-parser
+267 verbose url resolving [ 'http://registry.npmjs.org/', './socket.io-parser' ]
+268 verbose url resolved http://registry.npmjs.org/socket.io-parser
+269 info trying registry request attempt 1 at 03:15:11
+270 verbose etag "fc4a0d35d183260ed92c9cb58de924b5"
+271 http GET http://registry.npmjs.org/socket.io-parser
+272 verbose url raw engine.io-client
+273 verbose url resolving [ 'http://registry.npmjs.org/', './engine.io-client' ]
+274 verbose url resolved http://registry.npmjs.org/engine.io-client
+275 info trying registry request attempt 1 at 03:15:11
+276 verbose etag "b631338a32d12f702b08c99cc8cf812f"
+277 http GET http://registry.npmjs.org/engine.io-client
+278 http 304 http://registry.npmjs.org/socket.io-parser
+279 silly registry.get cb [ 304,
+279 silly registry.get   { date: 'Tue, 06 Aug 2024 18:15:11 GMT',
+279 silly registry.get     connection: 'keep-alive',
+279 silly registry.get     'cf-ray': '8af102c969513103-ICN',
+279 silly registry.get     'cf-cache-status': 'HIT',
+279 silly registry.get     'access-control-allow-origin': '*',
+279 silly registry.get     age: '67',
+279 silly registry.get     'cache-control': 'public, max-age=300',
+279 silly registry.get     etag: '"fc4a0d35d183260ed92c9cb58de924b5"',
+279 silly registry.get     'last-modified': 'Mon, 22 Jul 2024 09:09:32 GMT',
+279 silly registry.get     vary: 'Accept-Encoding',
+279 silly registry.get     server: 'cloudflare' } ]
+280 verbose etag socket.io-parser from cache
+281 http 304 http://registry.npmjs.org/debug
+282 silly registry.get cb [ 304,
+282 silly registry.get   { date: 'Tue, 06 Aug 2024 18:15:11 GMT',
+282 silly registry.get     connection: 'keep-alive',
+282 silly registry.get     'cf-ray': '8af102c96c8730c1-ICN',
+282 silly registry.get     'cf-cache-status': 'HIT',
+282 silly registry.get     'access-control-allow-origin': '*',
+282 silly registry.get     age: '28',
+282 silly registry.get     'cache-control': 'public, max-age=300',
+282 silly registry.get     etag: '"60daeb88ea01e92272f05dd8e9126cbf"',
+282 silly registry.get     'last-modified': 'Sat, 27 Jul 2024 09:23:26 GMT',
+282 silly registry.get     vary: 'Accept-Encoding',
+282 silly registry.get     server: 'cloudflare' } ]
+283 verbose etag debug from cache
+284 silly addNameRange number 2 { name: 'socket.io-parser',
+284 silly addNameRange   range: '>=4.2.4- <4.3.0-',
+284 silly addNameRange   hasData: true }
+285 silly addNameRange versions [ 'socket.io-parser',
+285 silly addNameRange   [ '1.0.1',
+285 silly addNameRange     '1.0.2',
+285 silly addNameRange     '1.1.0',
+285 silly addNameRange     '1.1.1',
+285 silly addNameRange     '1.1.2',
+285 silly addNameRange     '2.0.0',
+285 silly addNameRange     '2.1.0',
+285 silly addNameRange     '2.1.1',
+285 silly addNameRange     '2.1.2',
+285 silly addNameRange     '2.1.3',
+285 silly addNameRange     '2.1.4',
+285 silly addNameRange     '2.1.5',
+285 silly addNameRange     '2.2.0',
+285 silly addNameRange     '2.2.1',
+285 silly addNameRange     '2.2.2',
+285 silly addNameRange     '2.2.3',
+285 silly addNameRange     '2.2.4',
+285 silly addNameRange     '2.2.5',
+285 silly addNameRange     '2.2.6',
+285 silly addNameRange     '2.3.0',
+285 silly addNameRange     '2.3.1',
+285 silly addNameRange     '2.3.2',
+285 silly addNameRange     '3.0.0',
+285 silly addNameRange     '3.1.0',
+285 silly addNameRange     '3.1.1',
+285 silly addNameRange     '3.1.2',
+285 silly addNameRange     '3.1.3',
+285 silly addNameRange     '3.2.0',
+285 silly addNameRange     '3.3.0',
+285 silly addNameRange     '3.4.0',
+285 silly addNameRange     '3.4.1',
+285 silly addNameRange     '4.0.0',
+285 silly addNameRange     '3.3.1',
+285 silly addNameRange     '4.0.1-rc1',
+285 silly addNameRange     '4.0.1-rc2',
+285 silly addNameRange     '4.0.1-rc3',
+285 silly addNameRange     '4.0.1',
+285 silly addNameRange     '4.0.2',
+285 silly addNameRange     '4.0.3',
+285 silly addNameRange     '3.3.2',
+285 silly addNameRange     '4.0.4',
+285 silly addNameRange     '4.1.0',
+285 silly addNameRange     '4.1.1',
+285 silly addNameRange     '4.1.2',
+285 silly addNameRange     '4.2.0',
+285 silly addNameRange     '4.2.1',
+285 silly addNameRange     '4.0.5',
+285 silly addNameRange     '3.4.2',
+285 silly addNameRange     '3.3.3',
+285 silly addNameRange     '4.2.2',
+285 silly addNameRange     '4.2.3',
+285 silly addNameRange     '3.4.3',
+285 silly addNameRange     '4.2.4',
+285 silly addNameRange     '3.3.4' ] ]
+286 verbose addNamed [ 'socket.io-parser', '4.2.4' ]
+287 verbose addNamed [ '4.2.4', '4.2.4' ]
+288 silly lockFile b9e8eaf9-socket-io-parser-4-2-4 socket.io-parser@4.2.4
+289 verbose lock socket.io-parser@4.2.4 /Users/sjlee8/.npm/b9e8eaf9-socket-io-parser-4-2-4.lock
+290 silly addNameRange number 2 { name: 'debug', range: '>=4.3.2- <4.4.0-', hasData: true }
+291 silly addNameRange versions [ 'debug',
+291 silly addNameRange   [ '0.0.1',
+291 silly addNameRange     '0.1.0',
+291 silly addNameRange     '0.2.0',
+291 silly addNameRange     '0.3.0',
+291 silly addNameRange     '0.4.0',
+291 silly addNameRange     '0.4.1',
+291 silly addNameRange     '0.5.0',
+291 silly addNameRange     '0.6.0',
+291 silly addNameRange     '0.7.0',
+291 silly addNameRange     '0.7.1',
+291 silly addNameRange     '0.7.2',
+291 silly addNameRange     '0.7.3',
+291 silly addNameRange     '0.7.4',
+291 silly addNameRange     '0.8.0',
+291 silly addNameRange     '0.8.1',
+291 silly addNameRange     '1.0.0',
+291 silly addNameRange     '1.0.1',
+291 silly addNameRange     '1.0.2',
+291 silly addNameRange     '1.0.3',
+291 silly addNameRange     '1.0.4',
+291 silly addNameRange     '2.0.0',
+291 silly addNameRange     '2.1.0',
+291 silly addNameRange     '2.1.1',
+291 silly addNameRange     '2.1.2',
+291 silly addNameRange     '2.1.3',
+291 silly addNameRange     '2.2.0',
+291 silly addNameRange     '2.3.0',
+291 silly addNameRange     '2.3.1',
+291 silly addNameRange     '2.3.2',
+291 silly addNameRange     '2.3.3',
+291 silly addNameRange     '2.4.0',
+291 silly addNameRange     '2.4.1',
+291 silly addNameRange     '2.4.2',
+291 silly addNameRange     '2.4.3',
+291 silly addNameRange     '2.4.4',
+291 silly addNameRange     '2.4.5',
+291 silly addNameRange     '2.5.0',
+291 silly addNameRange     '2.5.1',
+291 silly addNameRange     '2.5.2',
+291 silly addNameRange     '2.6.0',
+291 silly addNameRange     '2.6.1',
+291 silly addNameRange     '2.6.2',
+291 silly addNameRange     '2.6.3',
+291 silly addNameRange     '2.6.4',
+291 silly addNameRange     '2.6.5',
+291 silly addNameRange     '2.6.6',
+291 silly addNameRange     '2.6.7',
+291 silly addNameRange     '2.6.8',
+291 silly addNameRange     '1.0.5',
+291 silly addNameRange     '3.0.0',
+291 silly addNameRange     '3.0.1',
+291 silly addNameRange     '2.6.9',
+291 silly addNameRange     '3.1.0',
+291 silly addNameRange     '3.2.0',
+291 silly addNameRange     '3.2.1',
+291 silly addNameRange     '3.2.2',
+291 silly addNameRange     '3.2.3',
+291 silly addNameRange     '4.0.0',
+291 silly addNameRange     '3.2.4',
+291 silly addNameRange     '3.2.5',
+291 silly addNameRange     '4.0.1',
+291 silly addNameRange     '4.1.0',
+291 silly addNameRange     '3.2.6',
+291 silly addNameRange     '4.1.1',
+291 silly addNameRange     '4.2.0',
+291 silly addNameRange     '4.3.0',
+291 silly addNameRange     '4.3.1',
+291 silly addNameRange     '3.2.7',
+291 silly addNameRange     '4.3.2',
+291 silly addNameRange     '4.3.3',
+291 silly addNameRange     '4.3.4',
+291 silly addNameRange     '4.3.5',
+291 silly addNameRange     '4.3.6' ] ]
+292 verbose addNamed [ 'debug', '4.3.6' ]
+293 verbose addNamed [ '4.3.6', '4.3.6' ]
+294 silly lockFile 9d47b864-debug-4-3-6 debug@4.3.6
+295 verbose lock debug@4.3.6 /Users/sjlee8/.npm/9d47b864-debug-4-3-6.lock
+296 verbose read json /Users/sjlee8/.npm/socket.io-parser/4.2.4/package/package.json
+297 verbose read json /Users/sjlee8/.npm/debug/4.3.6/package/package.json
+298 silly lockFile b9e8eaf9-socket-io-parser-4-2-4 socket.io-parser@4.2.4
+299 silly lockFile b9e8eaf9-socket-io-parser-4-2-4 socket.io-parser@4.2.4
+300 silly lockFile 9d47b864-debug-4-3-6 debug@4.3.6
+301 silly lockFile 9d47b864-debug-4-3-6 debug@4.3.6
+302 silly lockFile cda196fd-socket-io-parser-4-2-4 socket.io-parser@~4.2.4
+303 silly lockFile cda196fd-socket-io-parser-4-2-4 socket.io-parser@~4.2.4
+304 silly lockFile a68cb354-debug-4-3-2 debug@~4.3.2
+305 silly lockFile a68cb354-debug-4-3-2 debug@~4.3.2
+306 http 304 http://registry.npmjs.org/engine.io-client
+307 silly registry.get cb [ 304,
+307 silly registry.get   { date: 'Tue, 06 Aug 2024 18:15:12 GMT',
+307 silly registry.get     connection: 'keep-alive',
+307 silly registry.get     'cf-ray': '8af102c96c123271-ICN',
+307 silly registry.get     'cf-cache-status': 'REVALIDATED',
+307 silly registry.get     'access-control-allow-origin': '*',
+307 silly registry.get     'cache-control': 'public, max-age=300',
+307 silly registry.get     etag: '"b631338a32d12f702b08c99cc8cf812f"',
+307 silly registry.get     'last-modified': 'Fri, 21 Jun 2024 12:14:43 GMT',
+307 silly registry.get     vary: 'Accept-Encoding',
+307 silly registry.get     server: 'cloudflare' } ]
+308 verbose etag engine.io-client from cache
+309 silly addNameRange number 2 { name: 'engine.io-client',
+309 silly addNameRange   range: '>=6.5.2- <6.6.0-',
+309 silly addNameRange   hasData: true }
+310 silly addNameRange versions [ 'engine.io-client',
+310 silly addNameRange   [ '0.1.0',
+310 silly addNameRange     '0.1.1',
+310 silly addNameRange     '0.1.2',
+310 silly addNameRange     '0.2.0',
+310 silly addNameRange     '0.2.1',
+310 silly addNameRange     '0.2.2',
+310 silly addNameRange     '0.3.0',
+310 silly addNameRange     '0.3.1',
+310 silly addNameRange     '0.3.2',
+310 silly addNameRange     '0.3.3',
+310 silly addNameRange     '0.3.4',
+310 silly addNameRange     '0.3.5',
+310 silly addNameRange     '0.3.6',
+310 silly addNameRange     '0.3.7',
+310 silly addNameRange     '0.3.8',
+310 silly addNameRange     '0.3.9',
+310 silly addNameRange     '0.3.10',
+310 silly addNameRange     '0.4.0',
+310 silly addNameRange     '0.4.1',
+310 silly addNameRange     '0.4.2',
+310 silly addNameRange     '0.4.3',
+310 silly addNameRange     '0.5.0',
+310 silly addNameRange     '0.6.0',
+310 silly addNameRange     '0.6.1',
+310 silly addNameRange     '0.6.2',
+310 silly addNameRange     '0.6.3',
+310 silly addNameRange     '0.7.0',
+310 silly addNameRange     '0.7.1',
+310 silly addNameRange     '0.7.2',
+310 silly addNameRange     '0.7.3',
+310 silly addNameRange     '0.7.4',
+310 silly addNameRange     '0.7.5',
+310 silly addNameRange     '0.7.6',
+310 silly addNameRange     '0.7.7',
+310 silly addNameRange     '0.7.8',
+310 silly addNameRange     '0.7.9',
+310 silly addNameRange     '0.7.10',
+310 silly addNameRange     '0.7.11',
+310 silly addNameRange     '0.7.12',
+310 silly addNameRange     '0.7.13',
+310 silly addNameRange     '0.7.14',
+310 silly addNameRange     '0.8.0',
+310 silly addNameRange     '0.8.1',
+310 silly addNameRange     '0.8.2',
+310 silly addNameRange     '0.9.0',
+310 silly addNameRange     '1.0.0',
+310 silly addNameRange     '1.0.1',
+310 silly addNameRange     '1.0.2',
+310 silly addNameRange     '1.0.3',
+310 silly addNameRange     '1.0.4',
+310 silly addNameRange     '1.0.5',
+310 silly addNameRange     '1.1.0',
+310 silly addNameRange     '1.1.1',
+310 silly addNameRange     '1.2.0',
+310 silly addNameRange     '1.2.1',
+310 silly addNameRange     '1.2.2',
+310 silly addNameRange     '1.3.0',
+310 silly addNameRange     '1.3.1',
+310 silly addNameRange     '1.4.0',
+310 silly addNameRange     '1.4.1',
+310 silly addNameRange     '1.4.2',
+310 silly addNameRange     '1.4.3',
+310 silly addNameRange     '1.5.0',
+310 silly addNameRange     '1.5.1',
+310 silly addNameRange     '1.5.2',
+310 silly addNameRange     '1.5.3',
+310 silly addNameRange     '1.5.4',
+310 silly addNameRange     '1.6.0',
+310 silly addNameRange     '1.6.1',
+310 silly addNameRange     '1.6.2',
+310 silly addNameRange     '1.6.3',
+310 silly addNameRange     '1.6.4',
+310 silly addNameRange     '1.6.5',
+310 silly addNameRange     '1.6.6',
+310 silly addNameRange     '1.6.7',
+310 silly addNameRange     '1.6.8',
+310 silly addNameRange     '1.6.9',
+310 silly addNameRange     '1.6.10',
+310 silly addNameRange     '1.6.11',
+310 silly addNameRange     '1.7.0',
+310 silly addNameRange     '1.7.1',
+310 silly addNameRange     '1.7.2',
+310 silly addNameRange     '1.8.0',
+310 silly addNameRange     '1.8.1',
+310 silly addNameRange     '1.8.2',
+310 silly addNameRange     '2.0.0',
+310 silly addNameRange     '2.0.1',
+310 silly addNameRange     '2.0.2',
+310 silly addNameRange     '1.8.3',
+310 silly addNameRange     '2.1.0',
+310 silly addNameRange     '2.1.1',
+310 silly addNameRange     '3.0.0',
+310 silly addNameRange     '3.1.0',
+310 silly addNameRange     '1.8.4',
+310 silly addNameRange     '3.1.1',
+310 silly addNameRange     '3.1.2',
+310 silly addNameRange     '3.1.3',
+310 silly addNameRange     '3.1.4',
+310 silly addNameRange     '1.8.5',
+310 silly addNameRange     '3.1.5',
+310 silly addNameRange     '3.2.0',
+310 silly addNameRange     '3.2.1',
+310 silly addNameRange     '3.1.6',
+310 silly addNameRange     '3.3.0',
+310 silly addNameRange     '3.3.1',
+310 silly addNameRange     '3.3.2',
+310 silly addNameRange     '3.4.0',
+310 silly addNameRange     '4.0.0-alpha.0',
+310 silly addNameRange     '4.0.0-alpha.1',
+310 silly addNameRange     '3.4.1',
+310 silly addNameRange     '3.4.2',
+310 silly addNameRange     '3.4.3',
+310 silly addNameRange     '4.0.0',
+310 silly addNameRange     '3.4.4',
+310 silly addNameRange     '4.0.1',
+310 silly addNameRange     '4.0.2',
+310 silly addNameRange     '4.0.3',
+310 silly addNameRange     '4.0.4',
+310 silly addNameRange     '4.0.5',
+310 silly addNameRange     '3.5.0',
+310 silly addNameRange     '4.0.6',
+310 silly addNameRange     '4.1.0',
+310 silly addNameRange     '4.1.1',
+310 silly addNameRange     '4.1.2',
+310 silly addNameRange     '3.5.1',
+310 silly addNameRange     '5.0.0',
+310 silly addNameRange     '5.0.1',
+310 silly addNameRange     '4.1.3',
+310 silly addNameRange     '5.1.0',
+310 silly addNameRange     '3.5.2',
+310 silly addNameRange     '4.1.4',
+310 silly addNameRange     '5.1.1',
+310 silly addNameRange     '5.1.2',
+310 silly addNameRange     '1.8.6',
+310 silly addNameRange     '3.3.3',
+310 silly addNameRange     '5.2.0',
+310 silly addNameRange     '6.0.0',
+310 silly addNameRange     '6.0.1',
+310 silly addNameRange     '6.0.2',
+310 silly addNameRange     '6.1.0',
+310 silly addNameRange     '6.1.1',
+310 silly addNameRange     '6.0.3',
+310 silly addNameRange     '6.2.0',
+310 silly addNameRange     '6.2.1',
+310 silly addNameRange     '6.2.2',
+310 silly addNameRange     '3.5.3',
+310 silly addNameRange     '6.2.3',
+310 silly addNameRange     '6.3.0',
+310 silly addNameRange     '6.3.1',
+310 silly addNameRange     '6.4.0',
+310 silly addNameRange     '6.5.0',
+310 silly addNameRange     '6.5.1',
+310 silly addNameRange     '6.5.2',
+310 silly addNameRange     '6.5.3',
+310 silly addNameRange     '6.5.4',
+310 silly addNameRange     '3.5.4',
+310 silly addNameRange     '6.6.0' ] ]
+311 verbose addNamed [ 'engine.io-client', '6.5.4' ]
+312 verbose addNamed [ '6.5.4', '6.5.4' ]
+313 silly lockFile 8ce29011-engine-io-client-6-5-4 engine.io-client@6.5.4
+314 verbose lock engine.io-client@6.5.4 /Users/sjlee8/.npm/8ce29011-engine-io-client-6-5-4.lock
+315 verbose read json /Users/sjlee8/.npm/engine.io-client/6.5.4/package/package.json
+316 silly lockFile 8ce29011-engine-io-client-6-5-4 engine.io-client@6.5.4
+317 silly lockFile 8ce29011-engine-io-client-6-5-4 engine.io-client@6.5.4
+318 silly lockFile 6760a78b-engine-io-client-6-5-2 engine.io-client@~6.5.2
+319 silly lockFile 6760a78b-engine-io-client-6-5-2 engine.io-client@~6.5.2
+320 silly addNameRange { name: 'socket.io/component-emitter',
+320 silly addNameRange   range: '>=3.1.0- <3.2.0-',
+320 silly addNameRange   hasData: false }
+321 verbose url raw socket.io/component-emitter
+322 verbose url resolving [ 'http://registry.npmjs.org/',
+322 verbose url resolving   './socket.io/component-emitter' ]
+323 verbose url resolved http://registry.npmjs.org/socket.io/component-emitter
+324 info trying registry request attempt 1 at 03:15:25
+325 http GET http://registry.npmjs.org/socket.io/component-emitter
+326 http 404 http://registry.npmjs.org/socket.io/component-emitter
+327 silly registry.get cb [ 404,
+327 silly registry.get   { date: 'Tue, 06 Aug 2024 18:15:25 GMT',
+327 silly registry.get     'content-type': 'application/json',
+327 silly registry.get     'content-length': '38',
+327 silly registry.get     connection: 'keep-alive',
+327 silly registry.get     'cf-ray': '8af1031f6b043091-ICN',
+327 silly registry.get     'access-control-allow-origin': '*',
+327 silly registry.get     server: 'cloudflare' } ]
+328 silly addNameRange number 2 { name: 'socket.io/component-emitter',
+328 silly addNameRange   range: '>=3.1.0- <3.2.0-',
+328 silly addNameRange   hasData: true }
+329 silly addNameRange versions [ undefined, [] ]
+330 error TypeError: Cannot read property 'latest' of undefined
+330 error     at next (/Users/sjlee8/.nvm/v0.9.12/lib/node_modules/npm/lib/cache.js:650:35)
+330 error     at /Users/sjlee8/.nvm/v0.9.12/lib/node_modules/npm/lib/cache.js:638:5
+330 error     at saved (/Users/sjlee8/.nvm/v0.9.12/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+330 error     at Object.oncomplete (fs.js:93:15)
+331 error If you need help, you may report this log at:
+331 error     <http://github.com/isaacs/npm/issues>
+331 error or email it to:
+331 error     <npm-@googlegroups.com>
+332 error System Darwin 23.5.0
+333 error command "/Users/sjlee8/.nvm/v0.9.12/bin/node" "/Users/sjlee8/.nvm/v0.9.12/bin/npm" "install" "socket.io-client"
+334 error cwd /Users/sjlee8/sideproject/browserquest
+335 error node -v v0.9.12
+336 error npm -v 1.2.12
+337 error type non_object_property_load
+338 verbose exit [ 1, true ]
