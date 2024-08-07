@@ -4,6 +4,33 @@ BrowserQuest is a HTML5/JavaScript multiplayer game experiment.
 
 I am currently rebuilding a game called BrowserQuest, which was developed 12 years ago. In the original git project, some packages are missing or no longer available, so I have replaced them with those currently existing in npm. For example, I replaced websocket-server with socket.io. The game now starts and connects to the server, but there are still several issues, such as the player dying immediately. I will continue to make improvements.
 
+## important
+ >> before
+  "dependencies": {
+    "underscore": ">0"
+    , "log": ">0"
+    , "bison": ">0"
+    , "websocket": ">0"
+    , "websocket-server": ">0"
+    , "sanitizer": ">0"
+    , "memcache": ">0"
+  }
+>> after 
+
+ "dependencies": {
+    "express": "^4.19.2",
+    "log": "1.4.0",
+    "memcached": "2.2.2",
+    "ms": "2.1.2",
+    "sanitizer": "0.1.3",
+    "socket.io": "2.4.1",
+    "underscore": "1.1.7",
+    "websocket": "1.0.8"
+  }
+
+actually, "express": "^4.19.2" don't need.
+but, Node version v0.9.12.
+
 ## Documentation
 
 Documentation is located in client and server directories.
